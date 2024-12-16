@@ -1674,11 +1674,13 @@ header h1 {
 }
 
 .section-comparison h2 {
-  color: #FFFDD0;
+  color: #000000;
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+  font-weight: revert;
+
 }
 
 .comparison-wrapper {
@@ -1689,7 +1691,8 @@ header h1 {
 }
 
 .comparison-box {
-  background-color: #e5e5e500;
+  background-color: #fffdd0;
+  color: #000000;
   border-radius: 50px;
   overflow: hidden;
   width: 320px;
@@ -1717,11 +1720,12 @@ header h1 {
 
 .comparison-box ul li {
   margin: 8px 0;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  color: #faf9e2;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
 
 }
 
