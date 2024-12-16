@@ -1693,7 +1693,7 @@ header h1 {
 .comparison-box {
   background-color: #FFF;
   color: #000000;
-  border-radius: 50px;
+  border-radius: 30px;
   overflow: hidden;
   width: 320px;
   text-align: left;
@@ -1701,13 +1701,14 @@ header h1 {
 }
 
 .comparison-box img {
-  display: block; /* Remove espaços extras abaixo da imagem */
-  width: 100%; /* Garante que a imagem ocupe a largura total */
-  height: 250px; /* Mantém a proporção da imagem */
-  margin: 10px auto; /* Espaçamento de 10px em todos os lados e centraliza */
-  box-sizing: border-box; /* Inclui padding e border na largura total */
-  /* border-radius: 15px; Borda arredondada, caso necessário */
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin: 10px auto;
+  box-sizing: border-box;
   object-fit: cover;
+  border-radius: 15px;
+
 }
 
 
