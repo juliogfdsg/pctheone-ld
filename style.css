@@ -1794,7 +1794,7 @@ header h1 {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 25px;
-      padding: 60px;
+      /* padding: 20px; */
       justify-items: center;
 }
 
