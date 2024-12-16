@@ -1678,7 +1678,7 @@ header h1 {
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
   font-weight: revert;
 
 }
@@ -1721,11 +1721,11 @@ header h1 {
 .comparison-box ul li {
   margin: 8px 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     display: flex;
     align-items: center;
     color: #000000;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+    text-shadow: 2px 2px 5px rgb(0 0 0 / 28%);
 
 }
 
