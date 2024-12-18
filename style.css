@@ -154,8 +154,8 @@
       }
   
       .content ul li img {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
         margin-right: 10px;
       }
   
@@ -1908,12 +1908,12 @@ header h1 {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 1px;
     /* margin-left: 5px; */
     font-family: 'Roboto', sans-serif;
     gap: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
+    text-shadow: 2px 2px 5px rgb(0 0 0 / 13%);
     text-align: left;
     font-weight: 600;
 }
