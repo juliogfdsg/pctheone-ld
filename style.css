@@ -196,7 +196,7 @@
          align-items: center; /* Centraliza verticalmente */
          margin: 0; /* Remove margens padrão */
          position: relative;
-         padding: 50px;
+         padding: 100px;
     }
     
     /* Content Section */
@@ -297,7 +297,7 @@
         
     } 
     .logo3 {
-      top: 86%;
+      top: 77%;
       left: 3%;
       width: 100px;
       height: 100px;
