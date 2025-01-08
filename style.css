@@ -1,5 +1,10 @@
 
     /* Configurações gerais */
+
+
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       margin: 0;
       padding: 0;
@@ -37,6 +42,30 @@
     .logo img {
       max-width: 200px;
     }
+
+    .preco-container {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 900;
+      color: #333;
+
+    }
+    
+    .preco-antigo {
+      text-decoration: line-through;
+      color: red;
+      font-size: 20px;
+    }
+    
+    .preco-atual {
+      background: linear-gradient(135deg, #A5C972, #6A8E34);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 30px;
+    }
+    
 
     .title {
       font-family: 'Roboto', sans-serif;
@@ -396,7 +425,7 @@
 }
 
 .blue-section .section-title {
-    font-size: 2.5em;
+    font-size: 24px;
     margin-bottom: 50px;
     text-align: center;
     color: #ffffff; /* Cor amarela para destaque */
@@ -435,12 +464,11 @@
 }
 
 .content-item .text-container h3 {
-    font-size: 1.8em;
+    font-size: 22px;
     color: #ffffff; /* Destaque para o título */
     width: 100%;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
-
 }
 
   .text-containerrrrsa h3{
@@ -507,7 +535,8 @@
   .titlee {
     color:#fff;
     font-family: 'Sora', sans-serif;
-    font-size: 36px;
+    font-size: 24px;
+    margin-top: 40px;
     font-weight: 500;
     margin-bottom: 20px;
     width: 60%;
@@ -550,7 +579,7 @@
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 10px;
     width: 100%; /* Garante que o texto ocupe toda a largura disponível */
     text-align: left; /* Garante que o texto fique ao centro */
@@ -1489,7 +1518,7 @@ header h1 {
 }
 
 .faq-title {
-  /* background-color: #f9f9f9; */
+  background-color: #ffffff00;
   padding: 15px;
   cursor: pointer;
   display: flex;
@@ -1694,8 +1723,8 @@ header h1 {
   margin-top: 60px;
   font-size: 16px;
   color: #fff; /* Texto branco */
+  font-weight: 400;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.733);
-
 }
 
 .feedback-author {
@@ -1980,4 +2009,9 @@ header h1 {
   display: none;
 }
 
+}
+
+.nextiy{
+  text-decoration: none;
+  color: #0080ff;
 }
